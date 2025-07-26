@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Olive Trading</title>
+  <style>
+    :root {
+      --olive-green: #556b2f;
+      --light-olive: #d9e4cc;
+      --dark-gray: #333;
+      --font-main: 'Segoe UI', sans-serif;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: var(--font-main);
+    }
+
+    body {
+      background-color: #fff;
+      color: var(--dark-gray);
+    }
+
+    header {
+      background-color: var(--olive-green);
+      color: white;
+      padding: 1rem 2rem;
+      text-align: center;
+    }
+
+    nav {
+      margin-top: 0.5rem;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 1rem;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 2rem;
+    }
+
+    .section-title {
+      color: var(--olive-green);
+      margin-bottom: 1rem;
+      font-size: 1.5rem;
+    }
+
+    footer {
+      background-color: var(--light-olive);
+      padding: 1rem 2rem;
+      text-align: center;
+      font-size: 0.9rem;
+      margin-top: 2rem;
+    }
+
+    .contact-info {
+      margin-top: 1rem;
+      line-height: 1.6;
+    }
+
+    @media (max-width: 600px) {
+      nav a {
+        display: block;
+        margin: 0.5rem 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Olive Trading</h1>
+    <p>Myanmar-based company specializing in international import and export services.</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2 class="section-title">About Us</h2>
+    <p>
+      Olive Trading is a trusted name in Myanmar's trading industry. We specialize in international import and export services, aiming to connect local and global markets with efficiency and integrity.
+    </p>
+  </section>
+
+  <section id="services">
+    <h2 class="section-title">Our Services</h2>
+    <ul>
+      <li>International Import</li>
+      <li>International Export</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2 class="section-title">Contact Us</h2>
+    <div class="contact-info">
+      <p>Email: <a href="mailto:info@olivetrading.com">info@olivetrading.com</a></p>
+      <p>Phone: <a href="tel:+959420067251">09 420067251</a></p>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Olive Trading. All rights reserved.
+  </footer>
+</body>
+</html>
